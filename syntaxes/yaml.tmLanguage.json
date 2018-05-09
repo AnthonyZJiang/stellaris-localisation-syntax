@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Stellaris_Yaml",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.yaml",
+				"match": "§.|\\\\."
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.yaml",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "variable.name.yaml",
+					"begin": "\\[",
+					"end": "\\]"
+				},
+				{
+					"name": "variable.yaml",
+					"begin": "\\$",
+					"end": "\\$"
+				},
+				{
+					"name": "keyword.control.yaml",
+					"match": "§.|\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.yaml",
+			"match": "#.+"
+		}
+	},
+	"scopeName": "source.yaml"
+}

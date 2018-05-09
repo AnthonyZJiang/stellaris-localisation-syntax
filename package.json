@@ -1,0 +1,30 @@
+{
+    "name": "stellaris-localisation-syntax",
+    "displayName": "Stellaris_Localisation_Syntax",
+    "description": "Syntax highlighting for Stellaris localisation files",
+    "version": "1.0.0",
+    "publisher": "AnthonyJ",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "yaml",
+            "aliases": ["Stellaris_Yaml", "yaml"],
+            "extensions": [".yml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "yaml",
+            "scopeName": "source.yaml",
+            "path": "./syntaxes/yaml.tmLanguage.json"
+        }]
+    }
+    "repository": {
+        "type" : "git", 
+        "url" : "https://github.com/npm/npm.git"            
+    }
+}
