@@ -12,6 +12,7 @@ This is a Visual Studio Code extension that colourizes Stellaris localisation fi
 
 Initial release of Stellaris Localisation Syntax.
 
-### 1.0.1
+### 1.1.0
 
-Fixed screenshot in description
+- Fixed screenshot image
+- This suppose to be a patch (v1.0.1), but made a mistake in publishing, so be it.
