@@ -37,6 +37,11 @@
 				{
 					"name": "keyword.control.yaml",
 					"match": "§.|\\\\."
+				},
+				{
+					"name": "variable.yaml",
+					"begin": "£",
+					"end": " "
 				}
 			]
 		},

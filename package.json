@@ -2,7 +2,7 @@
     "name": "stellaris-localisation-syntax",
     "displayName": "Stellaris_Localisation_Syntax",
     "description": "Syntax highlighting for Stellaris localisation files",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "AnthonyJ",
     "engines": {
         "vscode": "^1.23.0"
